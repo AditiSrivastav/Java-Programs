@@ -1,0 +1,28 @@
+package java1;
+import java.util.Scanner;
+
+public class Cal_percentage {
+	public static void main(String[] args) {
+		System.out.println("Number of subject: ");
+		float percentage;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter subject 1 marks: ");
+		float a = sc.nextFloat();
+		System.out.println("Enter subject 2 marks: ");
+		float b = sc.nextFloat();
+		System.out.println("Enter subject 3 marks: ");
+		float c = sc.nextFloat();
+		System.out.println("Enter subject 4 marks: ");
+		float d = sc.nextFloat();
+		System.out.println("Enter subject 5 marks: ");
+		float e = sc.nextFloat();
+		System.out.println("Total Marks is: ");
+		float total = sc.nextFloat();
+		float sum = a+b+c+d+e;
+		percentage = (float)((sum/total )*100);
+		System.out.println("Percentage is= ");
+		System.out.println(percentage);
+		
+	}
+}
